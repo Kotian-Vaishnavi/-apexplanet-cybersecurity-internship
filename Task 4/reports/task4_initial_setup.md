@@ -2,20 +2,13 @@
 
 ## Environment Details
 
-**Date:** [Today's date]
-**Tester:** [Your name]
-
 ### Lab Configuration
 
 **Attacker Machine (Kali Linux):**
-- IP Address: [Your Kali IP]
-- OS Version: [Run: cat /etc/os-release]
-- Network Adapter: [Your adapter name]
+- IP Address:192.168.56.101
 
 **Target Machine (Metasploitable2):**
-- IP Address: [Your Metasploitable2 IP]
-- Status: Reachable ✓
-- Open Ports: [Will fill after Step 2]
+- IP Address: 192.168.56.102
 
 ### Tools Verified
 - [x] Metasploit Framework
